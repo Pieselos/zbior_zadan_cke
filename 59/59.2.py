@@ -1,6 +1,8 @@
 plik = open("../dane/59/liczby.txt")
 tekst = plik.readlines()
 plik.close()
+dict()
+set()
 
 def odwroc_tekst(linia):
     do_odwrocenia = list(linia)
@@ -17,6 +19,10 @@ for linia in tekst:
     liczba_odwrocona = odwroc_tekst(linia)
     suma = int(linia)+int(liczba_odwrocona)
     suma = str(suma)
+    for x:
+        break
+    else:
+
 
     print(linia,liczba_odwrocona, suma)
     if suma == odwroc_tekst(suma):
